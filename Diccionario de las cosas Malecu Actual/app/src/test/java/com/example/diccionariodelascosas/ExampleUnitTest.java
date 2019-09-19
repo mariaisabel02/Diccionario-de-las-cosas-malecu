@@ -1,4 +1,4 @@
-package com.example.larntech.gridview;
+package com.example.diccionariodelascosas;
 
 import org.junit.Test;
 

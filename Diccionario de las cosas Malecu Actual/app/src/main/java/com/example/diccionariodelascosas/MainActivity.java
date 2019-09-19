@@ -1,4 +1,4 @@
-package com.example.larntech.gridview;
+package com.example.diccionariodelascosas;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -16,8 +16,8 @@ import com.example.diccionariodelascosas.R;
 public class MainActivity extends AppCompatActivity {
     GridView gridView;
 
-    String[] fruitNames = {"Apple","Orange","strawberry","Melon","Kiwi","Banana"};
-    int[] fruitImages = {R.drawable.apple,R.drawable.oranges,R.drawable.strawberry,R.drawable.watermelon,R.drawable.kiwi,R.drawable.banana};
+    String[] fruitNames = {"Apple","Orange","Strawberry","Watermelon","Kiwi","Banana","Tangerine"};
+    int[] fruitImages = {R.drawable.apple,R.drawable.oranges,R.drawable.strawberry,R.drawable.watermelon,R.drawable.kiwi,R.drawable.banana,R.drawable.tangerine};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

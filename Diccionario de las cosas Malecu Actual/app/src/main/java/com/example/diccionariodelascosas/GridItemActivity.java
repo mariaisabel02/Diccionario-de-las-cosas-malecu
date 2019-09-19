@@ -1,4 +1,4 @@
-package com.example.larntech.gridview;
+package com.example.diccionariodelascosas;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
