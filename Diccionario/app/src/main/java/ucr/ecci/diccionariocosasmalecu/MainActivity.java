@@ -6,7 +6,7 @@ import android.os.Handler;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
-    private static int TIEMPO = 3000;
+    private static int TIEMPO = 4000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
