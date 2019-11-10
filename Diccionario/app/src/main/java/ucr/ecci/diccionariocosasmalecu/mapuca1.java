@@ -33,7 +33,7 @@ public class mapuca1 extends AppCompatActivity {
         boton_adelante.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(context, paginaPrincipal.class);
+                Intent intent = new Intent(context, mapuca2.class);
                 startActivity(intent);
             }
         });
