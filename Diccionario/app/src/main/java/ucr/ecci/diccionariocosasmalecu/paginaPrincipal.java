@@ -7,12 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.GridLayout;
 import android.widget.ImageButton;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.Toast;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.GridView;
 
 public class paginaPrincipal extends AppCompatActivity {
     GridLayout menu;
@@ -29,10 +24,11 @@ public class paginaPrincipal extends AppCompatActivity {
 
         ImageButton boton2 = (ImageButton)findViewById(R.id.imageButton6);
 
+        //para cada botón poner hacia cuál actividad va
         boton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(context, MainActivity.class);
+                Intent intent = new Intent(context, mapuca1.class);
                 startActivity(intent);
             }
         });

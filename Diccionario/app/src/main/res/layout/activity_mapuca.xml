@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/mapuca1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:gravity="center"
+        android:text="\n\nIquí ochápacá inhóclhafá ífapúye, tan níja fáru ífapúca maráma quijílha iquírralhá ófa carú úru maquerráca. Tan iquí curíjurí maráma ipsótacá mapúca quírra ní ajá jérro maráma masótac. Mapúca quírra majuéca níyu porélenh, yújanh, ní múri lhijú púru"
+        android:textColor="#410F0F" />
+
+
+</LinearLayout>
