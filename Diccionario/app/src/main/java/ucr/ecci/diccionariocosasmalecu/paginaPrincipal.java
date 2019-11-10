@@ -18,14 +18,13 @@ public class paginaPrincipal extends AppCompatActivity {
         setContentView(R.layout.activity_pagina_principal);
 
         menu = (GridLayout) findViewById(R.id.menu);
-
-        ImageButton boton1 = (ImageButton)findViewById(R.id.imageButton5);
         final Context context = this;
 
-        ImageButton boton2 = (ImageButton)findViewById(R.id.imageButton6);
+        ImageButton btn_mapuca = (ImageButton)findViewById(R.id.btn_mapuca);
+        ImageButton btn_jerro = (ImageButton)findViewById(R.id.btn_jerro);
 
         //para cada botón poner hacia cuál actividad va
-        boton1.setOnClickListener(new View.OnClickListener() {
+        btn_mapuca.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(context, mapuca1.class);
