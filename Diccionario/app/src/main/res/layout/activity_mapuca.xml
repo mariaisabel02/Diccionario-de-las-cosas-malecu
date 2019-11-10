@@ -3,58 +3,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:background="@drawable/fondo"
     android:padding="10dp">
 
-    <LinearLayout
 
-        android:layout_width="wrap_content"
-        android:layout_height="543dp"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:src="@drawable/mapuca1" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="126dp"
-            android:gravity="center"
-            android:text="\n\nIquí ochápacá inhóclhafá ífapúye, tan níja fáru ífapúca maráma quijílha iquírralhá ófa carú úru maquerráca. Tan iquí curíjurí maráma ipsótacá mapúca quírra ní ajá jérro maráma masótac. Mapúca quírra majuéca níyu porélenh, yújanh, ní múri lhijú púru"
-            android:textColor="#410F0F" />
-
-    </LinearLayout>
-
-    <ImageButton
-        android:id="@+id/btn_atras"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="662dp"
-        android:layout_marginEnd="349dp"
-        android:layout_marginRight="349dp"
-        android:gravity="end|bottom"
-        android:background="@drawable/fondo"
-        app:srcCompat="@drawable/atras" />
-
-    <ImageButton
-        android:id="@+id/btn_adelante"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="338dp"
-        android:layout_marginLeft="338dp"
-        android:layout_marginTop="662dp"
-        android:gravity="end|bottom"
-        android:background="@drawable/fondo"
-        app:srcCompat="@drawable/adelante" />
+        android:src="@drawable/mapuca1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:gravity="center"
+        android:text="\n\nIquí ochápacá inhóclhafá ífapúye, tan níja fáru ífapúca maráma quijílha iquírralhá ófa carú úru maquerráca. Tan iquí curíjurí maráma ipsótacá mapúca quírra ní ajá jérro maráma masótac. Mapúca quírra majuéca níyu porélenh, yújanh, ní múri lhijú púru"
+        android:textColor="#410F0F" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_atras"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:background="@drawable/fondo"
+            app:srcCompat="@drawable/atras" />
+
+        <ImageButton
+            android:id="@+id/btn_adelante"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/fondo"
+            app:srcCompat="@drawable/adelante" />
+    </RelativeLayout>
+
 
 </RelativeLayout>
 
