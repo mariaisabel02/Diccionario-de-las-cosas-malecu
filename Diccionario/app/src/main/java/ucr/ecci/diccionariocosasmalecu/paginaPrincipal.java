@@ -2,36 +2,38 @@ package ucr.ecci.diccionariocosasmalecu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.GridLayout;
+import android.widget.ImageButton;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Toast;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
 public class paginaPrincipal extends AppCompatActivity {
-    GridView menu;
-
-    String[] nombreCosa = {"Quijilha","Chiqui","Chiu","Ojonh","Pupa",
-                            "Afafufu mausunca", "Jafara","Tufictufinh","Majoca","Curu",
-                            "Mapuca quirra", "Jerro","Cuji","Caru","Mapuru", "Checacheca",
-                            "Quirri","Quirrilenh", "Tali", "Arafufu"};
-    int[] cosas = {
-            R.drawable.item1
-    };
+    GridLayout menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pagina_principal);
 
-        menu = (GridView) findViewById(R.id.menu);
+        menu = (GridLayout) findViewById(R.id.menu);
 
-        menu.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        ImageButton boton1 = (ImageButton)findViewById(R.id.imageButton5);
+        final Context context = this;
+
+        ImageButton boton2 = (ImageButton)findViewById(R.id.imageButton6);
+
+        boton1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                //Intent actividad = new Intent(paginaPrincipal.this, paginaPrincipal.class);
-                //startActivity(actividad);
-                //finish();
+            public void onClick(View v){
+                Intent intent = new Intent(context, MainActivity.class);
+                startActivity(intent);
             }
         });
     }
