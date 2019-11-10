@@ -7,20 +7,28 @@
     android:background="@drawable/fondo"
     android:padding="10dp">
 
-
-    <ImageView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/mapuca1" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="126dp"
-        android:gravity="center"
-        android:text="\n\nIquí ochápacá inhóclhafá ífapúye, tan níja fáru ífapúca maráma quijílha iquírralhá ófa carú úru maquerráca. Tan iquí curíjurí maráma ipsótacá mapúca quírra ní ajá jérro maráma masótac. Mapúca quírra majuéca níyu porélenh, yújanh, ní múri lhijú púru"
-        android:textColor="#410F0F" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/mapuca1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="17sp"
+            android:text="\n\nIquí ochápacá inhóclhafá ífapúye, tan níja fáru ífapúca maráma quijílha iquírralhá ófa carú úru maquerráca. Tan iquí curíjurí maráma ipsótacá mapúca quírra ní ajá jérro maráma masótac. Mapúca quírra majuéca níyu porélenh, yújanh, ní múri lhijú púru"
+            android:textAlignment="center"
+            android:textColor="#410F0F" />
+    </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
