@@ -17,6 +17,7 @@ public class mapuca1 extends AppCompatActivity {
 
         ImageButton boton_atras = (ImageButton)findViewById(R.id.btn_atras);
         ImageButton boton_adelante = (ImageButton)findViewById(R.id.btn_adelante);
+        ImageButton boton_principal = (ImageButton)findViewById(R.id.btn_principal);
         final Context context = this;
 
 
@@ -30,6 +31,14 @@ public class mapuca1 extends AppCompatActivity {
         });
 
         boton_adelante.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(context, paginaPrincipal.class);
+                startActivity(intent);
+            }
+        });
+
+        boton_principal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(context, paginaPrincipal.class);
