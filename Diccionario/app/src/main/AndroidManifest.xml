@@ -18,7 +18,7 @@
             android:name=".paginaPrincipal"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Splash"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
