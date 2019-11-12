@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class Splash extends AppCompatActivity {
     private static int TIEMPO = 4000;
 
     @Override
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent actividad = new Intent(MainActivity.this, paginaPrincipal.class);
+                Intent actividad = new Intent(Splash.this, paginaPrincipal.class);
                 startActivity(actividad);
                 finish();
             }

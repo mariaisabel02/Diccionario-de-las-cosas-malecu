@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".mapuca2"></activity>
+        <activity android:name=".jerro1"></activity>
+        <activity android:name=".mapuca2" />
         <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2" />
@@ -18,7 +19,7 @@
             android:name=".paginaPrincipal"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Splash"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
