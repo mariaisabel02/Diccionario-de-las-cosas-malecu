@@ -31,5 +31,13 @@ public class paginaPrincipal extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btn_jerro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(context, jerro1.class);
+                startActivity(intent);
+            }
+        });
     }
 }
