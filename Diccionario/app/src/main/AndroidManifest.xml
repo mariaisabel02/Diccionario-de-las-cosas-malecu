@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".jerro1"></activity>
+        <activity android:name=".mapuca3"></activity>
+        <activity android:name=".jerro1" />
         <activity android:name=".mapuca2" />
         <activity
             android:name=".Main2Activity"

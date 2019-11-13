@@ -8,12 +8,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class mapuca2 extends AppCompatActivity {
+public class mapuca3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mapuca2);
+        setContentView(R.layout.activity_mapuca3);
 
         ImageButton boton_atras = (ImageButton)findViewById(R.id.btn_atras);
         ImageButton boton_adelante = (ImageButton)findViewById(R.id.btn_adelante);
@@ -24,7 +24,7 @@ public class mapuca2 extends AppCompatActivity {
         boton_atras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(context, mapuca1.class);
+                Intent intent = new Intent(context, mapuca2.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.izq_der, R.anim.der_izq);
             }
