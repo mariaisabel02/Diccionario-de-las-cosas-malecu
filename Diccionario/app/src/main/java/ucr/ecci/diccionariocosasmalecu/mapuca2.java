@@ -24,16 +24,18 @@ public class mapuca2 extends AppCompatActivity {
         boton_atras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(context, paginaPrincipal.class);
+                Intent intent = new Intent(context, mapuca1.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.izq_der, R.anim.der_izq);
             }
         });
 
         boton_adelante.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(context, mapuca2.class);
+                Intent intent = new Intent(context, paginaPrincipal.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
         });
 
@@ -42,6 +44,7 @@ public class mapuca2 extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(context, paginaPrincipal.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.izq_der, R.anim.der_izq);
             }
         });
     }
