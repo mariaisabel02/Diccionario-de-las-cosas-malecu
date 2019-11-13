@@ -20,19 +20,19 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="1000dp"
-                android:src="@drawable/jerro3" />
+                android:layout_height="300dp"
+                android:src="@drawable/jerro4" />
 
-             <!--<ImageView
+            <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
-                android:src="@drawable/jerro2" />-->
+                android:layout_height="300dp"
+                android:src="@drawable/jerro5" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:textSize="30dp"
+                android:textSize="24dp"
                 android:textColor="#410F0F" />
         </LinearLayout>
     </ScrollView>
@@ -67,4 +67,6 @@
             android:background="@drawable/fondo"
             app:srcCompat="@drawable/adelante" />
     </RelativeLayout>
+
+
 </RelativeLayout>
