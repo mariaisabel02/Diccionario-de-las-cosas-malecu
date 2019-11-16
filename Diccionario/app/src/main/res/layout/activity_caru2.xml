@@ -21,19 +21,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
-                android:src="@drawable/jerro1" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="400dp"
-                android:src="@drawable/jerro2" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:textSize="24dp"
-                android:textColor="#410F0F" />
+                android:src="@drawable/caru2" />
         </LinearLayout>
     </ScrollView>
 

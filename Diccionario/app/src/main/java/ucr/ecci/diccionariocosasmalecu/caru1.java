@@ -8,12 +8,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class jerro1 extends AppCompatActivity {
+public class caru1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_jerro1);
+        setContentView(R.layout.activity_caru1);
 
         ImageButton boton_atras = (ImageButton)findViewById(R.id.btn_atras);
         ImageButton boton_adelante = (ImageButton)findViewById(R.id.btn_adelante);
@@ -33,7 +33,7 @@ public class jerro1 extends AppCompatActivity {
         boton_adelante.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(context, jerro2.class);
+                Intent intent = new Intent(context, caru2.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }

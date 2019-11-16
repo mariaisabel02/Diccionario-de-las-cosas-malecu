@@ -20,19 +20,29 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
-                android:src="@drawable/jerro1" />
+                android:layout_height="300dp"
+                android:src="@drawable/jerro6" />
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
-                android:src="@drawable/jerro2" />
+                android:layout_height="300dp"
+                android:src="@drawable/jerro7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="\n\nMasiríca lúfa ní ajánhe mulhú macatá ája, chífa orróqui maílicá ája tiá ulíma, tiá ujúti, tiá íyanh. Jerró ní ajánhe orróqui maráme mapíoca ajá ófa
+                orróqui maráma mailíca, tiá júma, tiá jánha."
+                android:textAlignment="center"
+                android:textSize="17dp"
+                android:textColor="#410F0F" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:textSize="24dp"
+                android:textSize="30dp"
                 android:textColor="#410F0F" />
         </LinearLayout>
     </ScrollView>
@@ -58,14 +68,6 @@
             android:layout_centerHorizontal="true"
             android:background="@drawable/fondo"
             app:srcCompat="@drawable/home" />
-
-        <ImageButton
-            android:id="@+id/btn_adelante"
-            android:layout_width="100dp"
-            android:layout_height="70dp"
-            android:layout_alignParentRight="true"
-            android:background="@drawable/fondo"
-            app:srcCompat="@drawable/adelante" />
     </RelativeLayout>
 
 

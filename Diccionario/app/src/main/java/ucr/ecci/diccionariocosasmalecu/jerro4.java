@@ -8,15 +8,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class jerro1 extends AppCompatActivity {
+public class jerro4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_jerro1);
+        setContentView(R.layout.activity_jerro4);
 
         ImageButton boton_atras = (ImageButton)findViewById(R.id.btn_atras);
-        ImageButton boton_adelante = (ImageButton)findViewById(R.id.btn_adelante);
         ImageButton boton_principal = (ImageButton)findViewById(R.id.btn_principal);
         final Context context = this;
 
@@ -24,18 +23,9 @@ public class jerro1 extends AppCompatActivity {
         boton_atras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(context, paginaPrincipal.class);
+                Intent intent = new Intent(context, jerro3.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.izq_der, R.anim.der_izq);
-            }
-        });
-
-        boton_adelante.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(context, jerro2.class);
-                startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
         });
 

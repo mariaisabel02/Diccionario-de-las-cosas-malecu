@@ -18,22 +18,19 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="400dp"
-                android:src="@drawable/jerro1" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="400dp"
-                android:src="@drawable/jerro2" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="\n\nOchápacá ipsótacá cáru. Ninhá ní masótacá cáru: Quirríjatacá ní rrisóta maráme túja córa. carú ája, tani ninháta ní rrijué maráme lhúrri córa puráni pá ní tafíquitonhé túja chía. Túja córa carrtaúni irifiúye, tacá iquí maráme maráláfarinháfa iyú iferrepúcte maráme, táni iquí maráme cólocháfa ní rifiúye lhúrri córa"
                 android:textAlignment="center"
-                android:textSize="24dp"
+                android:textSize="17dp"
                 android:textColor="#410F0F" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:src="@drawable/caru1" />
         </LinearLayout>
     </ScrollView>
 
