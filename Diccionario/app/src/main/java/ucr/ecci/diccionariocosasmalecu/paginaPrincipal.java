@@ -36,7 +36,7 @@ public class paginaPrincipal extends AppCompatActivity {
         btn_jerro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(context, jerro1.class);
+                Intent intent = new Intent(context, jerro.class);
                 startActivity(intent);
             }
         });
