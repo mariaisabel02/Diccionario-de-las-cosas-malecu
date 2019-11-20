@@ -20,7 +20,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="330dp"
                 android:src="@drawable/jerro01" />
 
             <ImageView
@@ -30,7 +30,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="300dp"
                 android:src="@drawable/jerro03" />
 
             <TextView

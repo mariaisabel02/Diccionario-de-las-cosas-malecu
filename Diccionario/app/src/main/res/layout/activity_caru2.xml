@@ -20,7 +20,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="600dp"
                 android:src="@drawable/caru2" />
         </LinearLayout>
     </ScrollView>

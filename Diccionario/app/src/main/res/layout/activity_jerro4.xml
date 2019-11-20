@@ -32,8 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
-                android:text="\n\nMasiríca lúfa ní ajánhe mulhú macatá ája, chífa orróqui maílicá ája tiá ulíma, tiá ujúti, tiá íyanh. Jerró ní ajánhe orróqui maráme mapíoca ajá ófa
-                orróqui maráma mailíca, tiá júma, tiá jánha."
+                android:text="\n\nMasiríca lúfa ní ajánhe mulhú macatá ája, chífa orróqui maílicá ája tiá ulíma, tiá ujúti, tiá íyanh. Jerró ní ajánhe orróqui maráme mapíoca ajá ófa orróqui maráma mailíca, tiá júma, tiá jánha."
                 android:textAlignment="center"
                 android:textSize="17dp"
                 android:textColor="#410F0F" />

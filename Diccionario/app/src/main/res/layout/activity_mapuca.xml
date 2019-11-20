@@ -38,15 +38,6 @@
                 android:textAlignment="center"
                 android:textSize="17dp"
                 android:textColor="#410F0F" />
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Mapúca quírra majuéca níyu porélenh, yújanh, ní múri lhijú púru"
-                android:textAlignment="center"
-                android:textSize="17dp"
-                android:textColor="#410F0F" />
         </LinearLayout>
     </ScrollView>
 
