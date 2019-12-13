@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/mapuru1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ochápacá ipsótacá mapúru, tan iquí jué ninháfa curíjurí ipsótac, tan ó maráma epéme ochá anhé ófa iuránh maráma, tacá ní marámatí jué isóte. Mapurú júma palá rrisótacá maráma. Ní ajánhe imlícucá maráma ája tiáma iyú mulhú macuáca \n\n"
+                android:textAlignment="center"
+                android:textSize="17dp"
+                android:textColor="#410F0F" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/fondo"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btn_principal"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/fondo"
+            app:srcCompat="@drawable/home" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
