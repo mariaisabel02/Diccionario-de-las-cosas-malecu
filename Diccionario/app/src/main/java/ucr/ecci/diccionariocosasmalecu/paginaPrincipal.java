@@ -1,33 +1,32 @@
 package ucr.ecci.diccionariocosasmalecu;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Context;
+import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.GridLayout;
-import android.widget.ImageButton;
 import android.view.View;
+import android.content.Context;
 
 public class paginaPrincipal extends AppCompatActivity {
-    GridLayout menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pagina_principal);
-
-        menu = (GridLayout) findViewById(R.id.menu);
         final Context context = this;
 
-        ImageButton btn_mapuca = (ImageButton)findViewById(R.id.btn_mapuca);
-        ImageButton btn_jerro = (ImageButton)findViewById(R.id.btn_jerro);
-        ImageButton btn_caru = (ImageButton) findViewById(R.id.btn_caru);
-        ImageButton btn_cuji = (ImageButton) findViewById(R.id.btn_cuji);
-        ImageButton btn_mapuru = (ImageButton) findViewById(R.id.btn_mapuru);
-        ImageButton btn_chiqui = (ImageButton) findViewById(R.id.btn_chiqui);
+        //inicializamos los cardview del menú
+        CardView btn_mapuca = findViewById(R.id.btn_mapuca);
+        CardView btn_jerro = findViewById(R.id.btn_jerro);
+        CardView btn_caru =  findViewById(R.id.btn_caru);
+        CardView btn_cuji =  findViewById(R.id.btn_cuji);
+        CardView btn_mapuru =  findViewById(R.id.btn_mapuru);
+        CardView btn_chiqui = findViewById(R.id.btn_chiqui);
 
-        //para cada botón poner hacia cuál actividad va
+
+
+        //para cada botón (cardview) indicamos hacia cuál actividad va al hacer click
+
         btn_mapuca.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -75,5 +74,6 @@ public class paginaPrincipal extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 }
