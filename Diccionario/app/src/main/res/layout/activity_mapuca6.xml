@@ -19,6 +19,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:layout_margin="@dimen/activity_vertical_margin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="11. Jué ní punhé ó marámatí iforónhe maquerrétené tacá irrilachónhe tafính maráme octaráyu tacá tíco irriulú u tafính maráme tí óra calíco tiá Lhújilí óra tí óraco, an jué ní punhé ó marámatí epéme tí calíco iúchíye. Tacá nocofáru cumá coné irrijónh maráme, tacá quepé irriquetéte maráme."
@@ -27,8 +28,8 @@
                 android:textColor="#410F0F" />
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="350dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:src="@drawable/mapuca6" />
 
             <TextView
@@ -37,6 +38,7 @@
                 android:text="12. Tacá majocá ótacá rricúye paquéquirrí mafuáyecá, tacá majo á tiní macorróca octarája tíco\n\n"
                 android:textAlignment="center"
                 android:textSize="16dp"
+                android:layout_margin="@dimen/activity_vertical_margin"
                 android:textColor="#410F0F" />
         </LinearLayout>
     </ScrollView>

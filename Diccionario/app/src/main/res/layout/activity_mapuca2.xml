@@ -14,11 +14,10 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/mapuca2"
-            android:scaleType="fitXY"
-            android:layout_gravity="center_vertical" />
+            android:layout_gravity="center" />
     </LinearLayout>
 
 
