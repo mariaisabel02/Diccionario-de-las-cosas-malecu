@@ -23,32 +23,29 @@
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="300dp"
-                android:layout_gravity="center"
-                android:src="@drawable/pupa1"
-                android:adjustViewBounds="true"/>
-
-            <ImageView
-                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:src="@drawable/arafafu_mausunca1"
                 android:layout_gravity="center"
-                android:src="@drawable/pupa2"
                 android:adjustViewBounds="true"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="\nPupá palá ní ajánhe maralánhca icó mapcháca icó júma mapíca chíu cóne icó mapjelóca icó juláca macúnhca maarráca. Iquí ó maráma juáctené pupáco icoquí arré ó yáme taíca icó ipché iquí nífa juáctené icó icoquí arré lhaláquí ipchiúca maráma. Tan ótacá epéme ní anhé lhaláqui ipchiúca maráma tacá pupá irricunhé maráme tacá Nharíne Chacónhe irriquí maráme nalháto mitémaqué puráni epéme ní anhé lhaláqui ipchiúca maráma óma nanhá juáctené pupáco nanhá icoquí arr, tamá icó nínhca ipchá ó lenhlúrinh, tan iquí maráme juáctené icó casá icoquí rriárre, tacá tijíni quepé enéque léri inhánhe maráma, tamá epéme iná níti jué Nharínhe Chacónhe. Jué ninháfa pupá palá rricú maráme ní ajá tí rricúca maráma iriáca maráma tíni. Jué ninháfa pupá paláco purú rrifuláca maráma tan nína ní ajánhe lhaláqui ipchiúca maráma nénhca rrijurúca marámaja\n"
+                android:adjustViewBounds="true"
+                android:text="\nNí ajánhe ótacá iptócuyé maráme tacá ótacá mafarújucá maráma tacá iquí maráme icocá yúja tócufa ijí tuétué tacá aquí maráme “¿mé naúnh?”, tacá iquí maráme ótacá ní irritáiqui maráme aráfufúco iusúnca maráma, tamá iquí “¿mé ní tonhé iusúnca maráma?”, tamá ní rricuánh arápcha maráma aráfufúco iusúne ucá maráma náita quepé ní rricuánh maráme iquí “jué mafarújuyeucá naánh”, tamá naíta quepé irriuráje maráma iquí maráme “pá natáte”, tamá quepé colónha icocá
+itué maráma, tamá quepé iquí maráma “intá colónha natuéca natócu marámayu”. Iquí ótacá aráfufú icó iusún maráme yáme naí tacá tócu lhóquilhá lacá maorórecá, tan pá lacá putúco maarré puc. Iquí ótacá iusúne jaténh maráme tacá aráfufú óco iusún maráme tacá tócu lhóqui imúri mafarújunhéca. Arápchá óra maráma fáru aráfufúco iusún maráme.
+\n"
                 android:textAlignment="center"
                 android:textSize="17dp"
                 android:textColor="#410F0F" />
 
-            <ImageView
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:adjustViewBounds="true"
-                android:src="@drawable/pupa3" />
+                android:textAlignment="center"
+                android:textSize="17dp"
+                android:textColor="#410F0F" />
 
         </LinearLayout>
     </ScrollView>
@@ -72,4 +69,3 @@
 
 
 </RelativeLayout>
-

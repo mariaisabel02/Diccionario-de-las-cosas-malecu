@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".pupa"></activity>
+        <activity android:name=".curu"></activity>
+        <activity android:name=".tufictufinh" />
+        <activity android:name=".arafufu_mausunca" />
+        <activity android:name=".tali" />
+        <activity android:name=".quirri" />
+        <activity android:name=".pupa" />
         <activity android:name=".chiqui2" />
         <activity android:name=".chiqui1" />
         <activity android:name=".chiqui" />

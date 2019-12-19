@@ -23,6 +23,11 @@ public class paginaPrincipal extends AppCompatActivity {
         CardView btn_mapuru =  findViewById(R.id.btn_mapuru);
         CardView btn_chiqui = findViewById(R.id.btn_chiqui);
         CardView btn_pupa = findViewById(R.id.btn_pupa);
+        CardView btn_quirri = findViewById(R.id.btn_quirri);
+        CardView btn_tali = findViewById(R.id.btn_tali);
+        CardView btn_arafufu_mausunca = findViewById(R.id.btn_arafufumausunca);
+        CardView btn_tufictufinh = findViewById(R.id.btn_tuficturinh);
+        CardView btn_curu = findViewById(R.id.btn_curu);
 
 
         //para cada botón (cardview) indicamos hacia cuál actividad va al hacer click
@@ -83,5 +88,46 @@ public class paginaPrincipal extends AppCompatActivity {
             }
         });
 
+        btn_quirri.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, quirri.class);
+                startActivity(intent);
+            }
+        });
+
+
+        btn_tali.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, tali.class);
+                startActivity(intent);
+            }
+        });
+
+
+        btn_arafufu_mausunca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, arafufu_mausunca.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_tufictufinh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, tufictufinh.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_curu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, curu.class);
+                startActivity(intent);
+            }
+        });
     }
 }
