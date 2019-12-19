@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity android:name=".pupa"></activity>
-        <activity android:name=".prueba" />
         <activity android:name=".chiqui2" />
         <activity android:name=".chiqui1" />
         <activity android:name=".chiqui" />
@@ -27,10 +26,6 @@
         <activity android:name=".mapuca3" />
         <activity android:name=".caru2" />
         <activity android:name=".caru1" />
-        <activity android:name=".jerro4" />
-        <activity android:name=".jerro3" />
-        <activity android:name=".jerro2" />
-        <activity android:name=".jerro1" />
         <activity android:name=".mapuca2" />
         <activity android:name=".mapuca1" />
         <activity
