@@ -23,32 +23,18 @@
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="300dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tali1"
                 android:layout_gravity="center"
-                android:src="@drawable/pupa1"
                 android:adjustViewBounds="true"/>
+
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:src="@drawable/tali2"
                 android:layout_gravity="center"
-                android:src="@drawable/pupa2"
                 android:adjustViewBounds="true"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="\nPupá palá ní ajánhe maralánhca icó mapcháca icó júma mapíca chíu cóne icó mapjelóca icó juláca macúnhca maarráca. Iquí ó maráma juáctené pupáco icoquí arré ó yáme taíca icó ipché iquí nífa juáctené icó icoquí arré lhaláquí ipchiúca maráma. Tan ótacá epéme ní anhé lhaláqui ipchiúca maráma tacá pupá irricunhé maráme tacá Nharíne Chacónhe irriquí maráme nalháto mitémaqué puráni epéme ní anhé lhaláqui ipchiúca maráma óma nanhá juáctené pupáco nanhá icoquí arr, tamá icó nínhca ipchá ó lenhlúrinh, tan iquí maráme juáctené icó casá icoquí rriárre, tacá tijíni quepé enéque léri inhánhe maráma, tamá epéme iná níti jué Nharínhe Chacónhe. Jué ninháfa pupá palá rricú maráme ní ajá tí rricúca maráma iriáca maráma tíni. Jué ninháfa pupá paláco purú rrifuláca maráma tan nína ní ajánhe lhaláqui ipchiúca maráma nénhca rrijurúca marámaja\n"
-                android:textAlignment="center"
-                android:textSize="17dp"
-                android:textColor="#410F0F" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:adjustViewBounds="true"
-                android:src="@drawable/pupa3" />
 
         </LinearLayout>
     </ScrollView>
@@ -72,4 +58,3 @@
 
 
 </RelativeLayout>
-
