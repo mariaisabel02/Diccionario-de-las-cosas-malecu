@@ -18,19 +18,20 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/majoca01"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:justificationMode="inter_word"
-                android:text="\n\nOchápacá ipsótacá cáru. Ninhá ní masótacá cáru: Quirríjatacá ní rrisóta maráme túja córa. carú ája, tani ninháta ní rrijué maráme lhúrri córa puráni pá ní tafíquitonhé túja chía. Túja córa carrtaúni irifiúye, tacá iquí maráme maráláfarinháfa iyú iferrepúcte maráme, táni iquí maráme cólocháfa ní rifiúye lhúrri córa"
                 android:textAlignment="center"
-                android:textSize="17dp"
+                android:textSize="24dp"
                 android:textColor="#410F0F" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="600dp"
-                android:src="@drawable/caru1" />
         </LinearLayout>
     </ScrollView>
 
@@ -42,13 +43,6 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/btn_atras"
-            android:layout_width="100dp"
-            android:layout_height="70dp"
-            android:background="@drawable/fondo"
-            app:srcCompat="@drawable/atras" />
-
-        <ImageButton
             android:id="@+id/btn_principal"
             android:layout_width="100dp"
             android:layout_height="70dp"
@@ -56,14 +50,6 @@
             android:background="@drawable/fondo"
             app:srcCompat="@drawable/home" />
 
-        <ImageButton
-            android:id="@+id/btn_adelante"
-            android:layout_width="100dp"
-            android:layout_height="70dp"
-            android:layout_alignParentRight="true"
-            android:background="@drawable/fondo"
-            app:srcCompat="@drawable/adelante" />
     </RelativeLayout>
-
 
 </RelativeLayout>

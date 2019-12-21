@@ -19,9 +19,17 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="600dp"
-                android:src="@drawable/caru2" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/caru01"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:textColor="#410F0F" />
         </LinearLayout>
     </ScrollView>
 
@@ -33,27 +41,12 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/btn_atras"
-            android:layout_width="100dp"
-            android:layout_height="70dp"
-            android:background="@drawable/fondo"
-            app:srcCompat="@drawable/atras" />
-
-        <ImageButton
             android:id="@+id/btn_principal"
             android:layout_width="100dp"
             android:layout_height="70dp"
             android:layout_centerHorizontal="true"
             android:background="@drawable/fondo"
             app:srcCompat="@drawable/home" />
-
-        <ImageButton
-            android:id="@+id/btn_adelante"
-            android:layout_width="100dp"
-            android:layout_height="70dp"
-            android:layout_alignParentRight="true"
-            android:background="@drawable/fondo"
-            app:srcCompat="@drawable/adelante" />
     </RelativeLayout>
 
 

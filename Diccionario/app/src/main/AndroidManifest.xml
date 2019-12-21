@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".curu"></activity>
+        <activity android:name=".majoca"></activity>
+        <activity android:name=".curu" />
         <activity android:name=".tufictufinh" />
         <activity android:name=".arafufu_mausunca" />
         <activity android:name=".tali" />
@@ -29,8 +30,7 @@
         <activity android:name=".mapuca5" />
         <activity android:name=".mapuca4" />
         <activity android:name=".mapuca3" />
-        <activity android:name=".caru2" />
-        <activity android:name=".caru1" />
+        <activity android:name=".caru" />
         <activity android:name=".mapuca2" />
         <activity android:name=".mapuca1" />
         <activity
