@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".majoca"></activity>
+        <activity android:name=".quijilha"></activity>
+        <activity android:name=".majoca" />
         <activity android:name=".curu" />
         <activity android:name=".tufictufinh" />
         <activity android:name=".arafufu_mausunca" />
