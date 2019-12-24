@@ -138,5 +138,13 @@ public class paginaPrincipal extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btn_curu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, curu.class);
+                startActivity(intent);
+            }
+        });
     }
 }

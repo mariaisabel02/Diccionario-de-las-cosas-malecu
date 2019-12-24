@@ -30,14 +30,6 @@ public class mapuca2 extends AppCompatActivity {
             }
         });
 
-        boton_adelante.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(context, mapuca3.class);
-                startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
-            }
-        });
 
         boton_principal.setOnClickListener(new View.OnClickListener() {
             @Override

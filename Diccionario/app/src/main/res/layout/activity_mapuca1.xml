@@ -12,7 +12,6 @@
         android:layout_height="match_parent"
         android:fillViewport="true">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -22,20 +21,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:src="@drawable/mapuca7"
-                android:layout_margin="@dimen/activity_vertical_margin"/>
+                android:src="@drawable/mapuca11"
+                android:adjustViewBounds="true"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:src="@drawable/mapuca71" />
+                android:src="@drawable/mapuca12"
+                android:adjustViewBounds="true"/>
 
-            <ImageView
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/activity_vertical_margin"
-                android:src="@drawable/mapuca73" />
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:textColor="#410F0F"/>
 
         </LinearLayout>
     </ScrollView>
@@ -47,12 +48,7 @@
         android:background="@drawable/fondo"
         android:orientation="horizontal">
 
-        <ImageButton
-            android:id="@+id/btn_atras"
-            android:layout_width="100dp"
-            android:layout_height="70dp"
-            android:background="@drawable/fondo"
-            app:srcCompat="@drawable/atras" />
+
 
         <ImageButton
             android:id="@+id/btn_principal"
@@ -73,3 +69,4 @@
 
 
 </RelativeLayout>
+

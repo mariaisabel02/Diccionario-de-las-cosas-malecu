@@ -7,9 +7,11 @@
         android:icon="@mipmap/ic_launcher"
         android:label="Diccionario de las cosas Malecu"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".quijilha"></activity>
+        <activity android:name=".mapuca1"></activity>
+        <activity android:name=".quijilha" />
         <activity android:name=".majoca" />
         <activity android:name=".curu" />
         <activity android:name=".tufictufinh" />
@@ -23,17 +25,8 @@
         <activity android:name=".mapuru" />
         <activity android:name=".cuji" />
         <activity android:name=".jerro" />
-        <activity android:name=".mapuca10" />
-        <activity android:name=".mapuca9" />
-        <activity android:name=".mapuca8" />
-        <activity android:name=".mapuca7" />
-        <activity android:name=".mapuca6" />
-        <activity android:name=".mapuca5" />
-        <activity android:name=".mapuca4" />
-        <activity android:name=".mapuca3" />
         <activity android:name=".caru" />
         <activity android:name=".mapuca2" />
-        <activity android:name=".mapuca1" />
         <activity
             android:name=".paginaPrincipal"
             android:screenOrientation="portrait" />
