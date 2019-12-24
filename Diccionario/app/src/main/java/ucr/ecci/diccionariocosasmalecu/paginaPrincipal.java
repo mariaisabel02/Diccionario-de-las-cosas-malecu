@@ -30,6 +30,7 @@ public class paginaPrincipal extends AppCompatActivity {
         CardView btn_curu = findViewById(R.id.btn_curu);
         CardView btn_majoca = findViewById(R.id.btn_majoca);
         CardView btn_quijilha = findViewById(R.id.btn_quijilha);
+        CardView btn_acerca = findViewById(R.id.btn_acerca);
 
         //para cada botón (cardview) indicamos hacia cuál actividad va al hacer click
 
@@ -143,6 +144,14 @@ public class paginaPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, curu.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_acerca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, acerca.class);
                 startActivity(intent);
             }
         });

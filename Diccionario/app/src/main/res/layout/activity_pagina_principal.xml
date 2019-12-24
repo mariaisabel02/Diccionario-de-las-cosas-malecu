@@ -17,7 +17,7 @@
             android:layout_height="200dp"
             android:orientation="vertical"
             android:gravity="center"
-            android:background="@drawable/portada" >
+            android:background="@drawable/portada">
         </LinearLayout>
 
 
@@ -26,8 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:numColumns="2"
-            >
+            android:numColumns="2">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/btn_mapuca"
@@ -676,8 +675,69 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_ojonh"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                android:layout_row="9"
+                android:layout_column="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ojohn"/>
+
+                    <TextView
+                        android:text="Ójonh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="#410F0F"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
         </GridLayout>
 
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_acerca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:padding="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Acerca del diccionario y esta aplicación"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:textColor="#410F0F"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 

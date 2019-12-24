@@ -6,11 +6,12 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Diccionario de las cosas Malecu"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".mapuca1"></activity>
+        <activity android:name=".acerca"></activity>
+        <activity android:name=".mapuca1" />
         <activity android:name=".quijilha" />
         <activity android:name=".majoca" />
         <activity android:name=".curu" />
