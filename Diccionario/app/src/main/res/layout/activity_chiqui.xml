@@ -47,12 +47,6 @@
         android:background="@drawable/fondo"
         android:orientation="horizontal">
 
-        <ImageButton
-            android:id="@+id/btn_atras"
-            android:layout_width="100dp"
-            android:layout_height="70dp"
-            android:background="@drawable/fondo"
-            app:srcCompat="@drawable/atras" />
 
         <ImageButton
             android:id="@+id/btn_principal"

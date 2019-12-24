@@ -15,20 +15,10 @@ public class chiqui extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chiqui);
 
-        ImageButton boton_atras = (ImageButton)findViewById(R.id.btn_atras);
         ImageButton boton_adelante = (ImageButton)findViewById(R.id.btn_adelante);
         ImageButton boton_principal = (ImageButton)findViewById(R.id.btn_principal);
         final Context context = this;
 
-        //para cada botón poner hacia cuál actividad va
-        boton_atras.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(context, paginaPrincipal.class);
-                startActivity(intent);
-                overridePendingTransition(R.anim.izq_der, R.anim.der_izq);
-            }
-        });
 
         boton_adelante.setOnClickListener(new View.OnClickListener() {
             @Override
