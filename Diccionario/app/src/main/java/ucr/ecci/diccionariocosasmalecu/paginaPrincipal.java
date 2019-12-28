@@ -11,6 +11,11 @@ import android.content.Context;
 public class paginaPrincipal extends AppCompatActivity {
 MediaPlayer raw_arafufu;
 MediaPlayer raw_arafufu_mausunca;
+MediaPlayer raw_checacheca;
+MediaPlayer raw_cuji;
+MediaPlayer raw_curu;
+MediaPlayer raw_jafara;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,11 +38,16 @@ MediaPlayer raw_arafufu_mausunca;
         CardView btn_majoca = findViewById(R.id.btn_majoca);
         CardView btn_quijilha = findViewById(R.id.btn_quijilha);
         CardView btn_acerca = findViewById(R.id.btn_acerca);
+        CardView btn_checacheca = findViewById(R.id.btn_chechacheca);
 
         //inicializamos los audios del menu principal
 
         raw_arafufu = MediaPlayer.create(paginaPrincipal.this, R.raw.arafufu);
         raw_arafufu_mausunca = MediaPlayer.create(paginaPrincipal.this, R.raw.arafufu_mausunca);
+        raw_checacheca = MediaPlayer.create(paginaPrincipal.this, R.raw.checacheca);
+        raw_cuji = MediaPlayer.create(paginaPrincipal.this, R.raw.cuji);
+        raw_curu = MediaPlayer.create(paginaPrincipal.this, R.raw.curu);
+        raw_jafara = MediaPlayer.create(paginaPrincipal.this, R.raw.jafara);
 
         //para cada botón (cardview) indicamos hacia cuál actividad va al hacer click
 
@@ -69,6 +79,7 @@ MediaPlayer raw_arafufu_mausunca;
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, cuji.class);
+                raw_cuji.start();
                 startActivity(intent);
             }
         });
@@ -152,6 +163,16 @@ MediaPlayer raw_arafufu_mausunca;
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, curu.class);
+                raw_curu.start();
+                startActivity(intent);
+            }
+        });
+
+        btn_checacheca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, checacheca.class);
+                raw_checacheca.start();
                 startActivity(intent);
             }
         });

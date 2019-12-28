@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/checacheca01"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jué ninháfa ní majuéca pupá uráqui óra tacá ipilhú óra mapíca tacá icalí majuéca tacá májocá tiá quirrímunú majóca, tacá tijíni ótacá chí majocá tacá ótacá itílhtenhé tacá icó pucúru cúru mapióca, tacá quepé icó córa lhacá óra icalí óraco mapióca tacá níyu macatáca arísu. Ní óra ajánhe arápchá óra írrec \n\n"
+                android:textAlignment="center"
+                android:textSize="17dp"
+                android:textColor="#410F0F" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/fondo"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_principal"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/fondo"
+            app:srcCompat="@drawable/home" />
+
+    </RelativeLayout>
+</RelativeLayout>
+
