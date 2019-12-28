@@ -3,12 +3,14 @@ package ucr.ecci.diccionariocosasmalecu;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.content.Context;
 
 public class paginaPrincipal extends AppCompatActivity {
-
+MediaPlayer raw_arafufu;
+MediaPlayer raw_arafufu_mausunca;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +33,11 @@ public class paginaPrincipal extends AppCompatActivity {
         CardView btn_majoca = findViewById(R.id.btn_majoca);
         CardView btn_quijilha = findViewById(R.id.btn_quijilha);
         CardView btn_acerca = findViewById(R.id.btn_acerca);
+
+        //inicializamos los audios del menu principal
+
+        raw_arafufu = MediaPlayer.create(paginaPrincipal.this, R.raw.arafufu);
+        raw_arafufu_mausunca = MediaPlayer.create(paginaPrincipal.this, R.raw.arafufu_mausunca);
 
         //para cada botón (cardview) indicamos hacia cuál actividad va al hacer click
 
@@ -112,6 +119,7 @@ public class paginaPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, arafufu_mausunca.class);
+                raw_arafufu_mausunca.start();
                 startActivity(intent);
             }
         });
