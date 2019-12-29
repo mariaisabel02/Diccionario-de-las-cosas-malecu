@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".checacheca"></activity>
+        <activity android:name=".ojonh"></activity>
+        <activity android:name=".checacheca" />
         <activity android:name=".acerca" />
         <activity android:name=".mapuca1" />
         <activity android:name=".quijilha" />

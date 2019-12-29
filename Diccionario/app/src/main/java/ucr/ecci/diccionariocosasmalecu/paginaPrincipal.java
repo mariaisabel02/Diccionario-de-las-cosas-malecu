@@ -9,12 +9,16 @@ import android.view.View;
 import android.content.Context;
 
 public class paginaPrincipal extends AppCompatActivity {
-MediaPlayer raw_arafufu;
-MediaPlayer raw_arafufu_mausunca;
-MediaPlayer raw_checacheca;
-MediaPlayer raw_cuji;
-MediaPlayer raw_curu;
-MediaPlayer raw_jafara;
+    MediaPlayer raw_mapuca_quirra;
+    MediaPlayer raw_cuji;
+    MediaPlayer raw_quijilha;
+    MediaPlayer raw_checacheca;
+    MediaPlayer raw_quirri;
+    MediaPlayer raw_arafufu;
+    MediaPlayer raw_arafufu_mausunca;
+    MediaPlayer raw_jafara;
+    MediaPlayer raw_majoca;
+    MediaPlayer raw_curu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,26 +32,30 @@ MediaPlayer raw_jafara;
         CardView btn_caru =  findViewById(R.id.btn_caru);
         CardView btn_cuji =  findViewById(R.id.btn_cuji);
         CardView btn_mapuru =  findViewById(R.id.btn_mapuru);
+        CardView btn_quijilha = findViewById(R.id.btn_quijilha);
         CardView btn_chiqui = findViewById(R.id.btn_chiqui);
         CardView btn_pupa = findViewById(R.id.btn_pupa);
+        CardView btn_checacheca = findViewById(R.id.btn_chechacheca);
         CardView btn_quirri = findViewById(R.id.btn_quirri);
         CardView btn_tali = findViewById(R.id.btn_tali);
         CardView btn_arafufu_mausunca = findViewById(R.id.btn_arafufumausunca);
         CardView btn_tufictufinh = findViewById(R.id.btn_tuficturinh);
-        CardView btn_curu = findViewById(R.id.btn_curu);
         CardView btn_majoca = findViewById(R.id.btn_majoca);
-        CardView btn_quijilha = findViewById(R.id.btn_quijilha);
+        CardView btn_curu = findViewById(R.id.btn_curu);
+        CardView btn_ojonh = findViewById(R.id.btn_ojonh);
         CardView btn_acerca = findViewById(R.id.btn_acerca);
-        CardView btn_checacheca = findViewById(R.id.btn_chechacheca);
 
         //inicializamos los audios del menu principal
-
+        raw_mapuca_quirra = MediaPlayer.create(paginaPrincipal.this, R.raw.mapuca_quirra);
+        raw_cuji = MediaPlayer.create(paginaPrincipal.this, R.raw.cuji);
+        raw_quijilha = MediaPlayer.create(paginaPrincipal.this, R.raw.quijilha);
+        raw_checacheca = MediaPlayer.create(paginaPrincipal.this, R.raw.checacheca);
+        raw_quirri = MediaPlayer.create(paginaPrincipal.this, R.raw.quirri);
         raw_arafufu = MediaPlayer.create(paginaPrincipal.this, R.raw.arafufu);
         raw_arafufu_mausunca = MediaPlayer.create(paginaPrincipal.this, R.raw.arafufu_mausunca);
-        raw_checacheca = MediaPlayer.create(paginaPrincipal.this, R.raw.checacheca);
-        raw_cuji = MediaPlayer.create(paginaPrincipal.this, R.raw.cuji);
-        raw_curu = MediaPlayer.create(paginaPrincipal.this, R.raw.curu);
         raw_jafara = MediaPlayer.create(paginaPrincipal.this, R.raw.jafara);
+        raw_majoca = MediaPlayer.create(paginaPrincipal.this, R.raw.majoca);
+        raw_curu = MediaPlayer.create(paginaPrincipal.this, R.raw.curu);
 
         //para cada botón (cardview) indicamos hacia cuál actividad va al hacer click
 
@@ -55,6 +63,7 @@ MediaPlayer raw_jafara;
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(context, mapuca1.class);
+                raw_mapuca_quirra.start();
                 startActivity(intent);
             }
         });
@@ -63,14 +72,6 @@ MediaPlayer raw_jafara;
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(context, jerro.class);
-                startActivity(intent);
-            }
-        });
-
-        btn_caru.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(context, caru.class);
                 startActivity(intent);
             }
         });
@@ -84,10 +85,27 @@ MediaPlayer raw_jafara;
             }
         });
 
+        btn_caru.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, caru.class);
+                startActivity(intent);
+            }
+        });
+
         btn_mapuru.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, mapuru.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_quijilha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, quijilha.class);
+                raw_quijilha.start();
                 startActivity(intent);
             }
         });
@@ -108,10 +126,20 @@ MediaPlayer raw_jafara;
             }
         });
 
+        btn_checacheca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, checacheca.class);
+                raw_checacheca.start();
+                startActivity(intent);
+            }
+        });
+
         btn_quirri.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, quirri.class);
+                raw_quirri.start();
                 startActivity(intent);
             }
         });
@@ -147,14 +175,7 @@ MediaPlayer raw_jafara;
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, majoca.class);
-                startActivity(intent);
-            }
-        });
-
-        btn_quijilha.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(context, quijilha.class);
+                raw_majoca.start();
                 startActivity(intent);
             }
         });
@@ -168,11 +189,10 @@ MediaPlayer raw_jafara;
             }
         });
 
-        btn_checacheca.setOnClickListener(new View.OnClickListener() {
+        btn_ojonh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, checacheca.class);
-                raw_checacheca.start();
+                Intent intent = new Intent(context, ojonh.class);
                 startActivity(intent);
             }
         });
