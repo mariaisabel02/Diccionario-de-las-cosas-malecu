@@ -34,10 +34,12 @@ public class paginaPrincipal extends AppCompatActivity {
         CardView btn_mapuru =  findViewById(R.id.btn_mapuru);
         CardView btn_quijilha = findViewById(R.id.btn_quijilha);
         CardView btn_chiqui = findViewById(R.id.btn_chiqui);
+        CardView btn_chiu = findViewById(R.id.btn_chiu);
         CardView btn_pupa = findViewById(R.id.btn_pupa);
         CardView btn_checacheca = findViewById(R.id.btn_chechacheca);
         CardView btn_quirri = findViewById(R.id.btn_quirri);
         CardView btn_tali = findViewById(R.id.btn_tali);
+        CardView btn_arafufu = findViewById(R.id.btn_arafufu);
         CardView btn_arafufu_mausunca = findViewById(R.id.btn_arafufumausunca);
         CardView btn_tufictufinh = findViewById(R.id.btn_tuficturinh);
         CardView btn_majoca = findViewById(R.id.btn_majoca);
@@ -118,6 +120,14 @@ public class paginaPrincipal extends AppCompatActivity {
             }
         });
 
+        btn_chiu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, chiu.class);
+                startActivity(intent);
+            }
+        });
+
         btn_pupa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -144,7 +154,6 @@ public class paginaPrincipal extends AppCompatActivity {
             }
         });
 
-
         btn_tali.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -153,6 +162,14 @@ public class paginaPrincipal extends AppCompatActivity {
             }
         });
 
+        btn_arafufu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, arafufu.class);
+                raw_arafufu.start();
+                startActivity(intent);
+            }
+        });
 
         btn_arafufu_mausunca.setOnClickListener(new View.OnClickListener() {
             @Override
