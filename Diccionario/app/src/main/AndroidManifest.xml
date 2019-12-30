@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".arafufu"></activity>
+        <activity android:name=".jafara"></activity>
+        <activity android:name=".quirrilenh" />
+        <activity android:name=".arafufu" />
         <activity android:name=".chiu2" />
         <activity android:name=".chiu" />
         <activity android:name=".ojonh" />

@@ -38,9 +38,11 @@ public class paginaPrincipal extends AppCompatActivity {
         CardView btn_pupa = findViewById(R.id.btn_pupa);
         CardView btn_checacheca = findViewById(R.id.btn_chechacheca);
         CardView btn_quirri = findViewById(R.id.btn_quirri);
+        CardView btn_quirrilenh = findViewById(R.id.btn_quirrilenh);
         CardView btn_tali = findViewById(R.id.btn_tali);
         CardView btn_arafufu = findViewById(R.id.btn_arafufu);
         CardView btn_arafufu_mausunca = findViewById(R.id.btn_arafufumausunca);
+        CardView btn_jafara = findViewById(R.id.btn_jafara);
         CardView btn_tufictufinh = findViewById(R.id.btn_tuficturinh);
         CardView btn_majoca = findViewById(R.id.btn_majoca);
         CardView btn_curu = findViewById(R.id.btn_curu);
@@ -154,6 +156,14 @@ public class paginaPrincipal extends AppCompatActivity {
             }
         });
 
+        btn_quirrilenh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, quirrilenh.class);
+                startActivity(intent);
+            }
+        });
+
         btn_tali.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -176,6 +186,15 @@ public class paginaPrincipal extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(context, arafufu_mausunca.class);
                 raw_arafufu_mausunca.start();
+                startActivity(intent);
+            }
+        });
+
+        btn_jafara.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, jafara.class);
+                raw_jafara.start();
                 startActivity(intent);
             }
         });

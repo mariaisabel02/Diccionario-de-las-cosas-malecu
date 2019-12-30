@@ -18,11 +18,18 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ó maráma mapíca quirrílequí tené ní macúca cóti, chólh ófa quírri ní múri cucánhíya. Iquí chólh ótacá nocócha ianhé tacá jué ióra ánhe, tan ótacá ámpe ianhé epéme amí naí tacá ioránh. Tan epéme ní macorróca ipurú ó ulúífa.\n\n"
+                android:textAlignment="center"
+                android:textSize="17dp"
+                android:textColor="#410F0F" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/jerro01"
+                android:src="@drawable/quirrilenh01"
                 android:adjustViewBounds="true"/>
 
             <TextView
