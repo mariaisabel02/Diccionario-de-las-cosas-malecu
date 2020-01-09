@@ -11,7 +11,9 @@ import android.content.Context;
 public class paginaPrincipal extends AppCompatActivity {
     MediaPlayer raw_mapuca_quirra;
     MediaPlayer raw_cuji;
+    MediaPlayer raw_caru;
     MediaPlayer raw_quijilha;
+    MediaPlayer raw_chiqui;
     MediaPlayer raw_checacheca;
     MediaPlayer raw_quirri;
     MediaPlayer raw_arafufu;
@@ -52,7 +54,9 @@ public class paginaPrincipal extends AppCompatActivity {
         //inicializamos los audios del menu principal
         raw_mapuca_quirra = MediaPlayer.create(paginaPrincipal.this, R.raw.mapuca_quirra);
         raw_cuji = MediaPlayer.create(paginaPrincipal.this, R.raw.cuji);
+        raw_caru = MediaPlayer.create(paginaPrincipal.this, R.raw.caru);
         raw_quijilha = MediaPlayer.create(paginaPrincipal.this, R.raw.quijilha);
+        raw_chiqui = MediaPlayer.create(paginaPrincipal.this, R.raw.chiqui);
         raw_checacheca = MediaPlayer.create(paginaPrincipal.this, R.raw.checacheca);
         raw_quirri = MediaPlayer.create(paginaPrincipal.this, R.raw.quirri);
         raw_arafufu = MediaPlayer.create(paginaPrincipal.this, R.raw.arafufu);
@@ -93,6 +97,7 @@ public class paginaPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, caru.class);
+                raw_caru.start();
                 startActivity(intent);
             }
         });
@@ -118,6 +123,7 @@ public class paginaPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, chiqui.class);
+                raw_chiqui.start();
                 startActivity(intent);
             }
         });
