@@ -10,17 +10,25 @@ import android.content.Context;
 
 public class paginaPrincipal extends AppCompatActivity {
     MediaPlayer raw_mapuca_quirra;
+    MediaPlayer raw_jerro;
     MediaPlayer raw_cuji;
     MediaPlayer raw_caru;
+    MediaPlayer raw_mapuru;
     MediaPlayer raw_quijilha;
     MediaPlayer raw_chiqui;
+    MediaPlayer raw_chiu;
+    MediaPlayer raw_pupa;
     MediaPlayer raw_checacheca;
     MediaPlayer raw_quirri;
+    MediaPlayer raw_quirrilenh;
+    MediaPlayer raw_tali;
     MediaPlayer raw_arafufu;
     MediaPlayer raw_arafufu_mausunca;
     MediaPlayer raw_jafara;
+    MediaPlayer raw_tufictufinh;
     MediaPlayer raw_majoca;
     MediaPlayer raw_curu;
+    MediaPlayer raw_ojonh;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,17 +61,25 @@ public class paginaPrincipal extends AppCompatActivity {
 
         //inicializamos los audios del menu principal
         raw_mapuca_quirra = MediaPlayer.create(paginaPrincipal.this, R.raw.mapuca_quirra);
+        raw_jerro = MediaPlayer.create(paginaPrincipal.this, R.raw.jerro);
         raw_cuji = MediaPlayer.create(paginaPrincipal.this, R.raw.cuji);
         raw_caru = MediaPlayer.create(paginaPrincipal.this, R.raw.caru);
+        raw_mapuru = MediaPlayer.create(paginaPrincipal.this, R.raw.mapuru);
         raw_quijilha = MediaPlayer.create(paginaPrincipal.this, R.raw.quijilha);
         raw_chiqui = MediaPlayer.create(paginaPrincipal.this, R.raw.chiqui);
+        raw_chiu = MediaPlayer.create(paginaPrincipal.this, R.raw.chiu);
+        raw_pupa = MediaPlayer.create(paginaPrincipal.this, R.raw.pupa);
         raw_checacheca = MediaPlayer.create(paginaPrincipal.this, R.raw.checacheca);
         raw_quirri = MediaPlayer.create(paginaPrincipal.this, R.raw.quirri);
+        raw_quirrilenh = MediaPlayer.create(paginaPrincipal.this, R.raw.quirrilenh);
+        raw_tali = MediaPlayer.create(paginaPrincipal.this, R.raw.tali);
         raw_arafufu = MediaPlayer.create(paginaPrincipal.this, R.raw.arafufu);
         raw_arafufu_mausunca = MediaPlayer.create(paginaPrincipal.this, R.raw.arafufu_mausunca);
         raw_jafara = MediaPlayer.create(paginaPrincipal.this, R.raw.jafara);
+        raw_tufictufinh = MediaPlayer.create(paginaPrincipal.this, R.raw.tufictufinh);
         raw_majoca = MediaPlayer.create(paginaPrincipal.this, R.raw.majoca);
         raw_curu = MediaPlayer.create(paginaPrincipal.this, R.raw.curu);
+        raw_ojonh = MediaPlayer.create(paginaPrincipal.this, R.raw.ojonh);
 
         //para cada botón (cardview) indicamos hacia cuál actividad va al hacer click
 
@@ -80,6 +96,7 @@ public class paginaPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(context, jerro.class);
+                raw_jerro.start();
                 startActivity(intent);
             }
         });
@@ -106,6 +123,7 @@ public class paginaPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, mapuru.class);
+                raw_mapuru.start();
                 startActivity(intent);
             }
         });
@@ -132,6 +150,7 @@ public class paginaPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, chiu.class);
+                raw_chiu.start();
                 startActivity(intent);
             }
         });
@@ -140,6 +159,7 @@ public class paginaPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, pupa.class);
+                raw_pupa.start();
                 startActivity(intent);
             }
         });
@@ -166,6 +186,7 @@ public class paginaPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, quirrilenh.class);
+                raw_quirrilenh.start();
                 startActivity(intent);
             }
         });
@@ -174,6 +195,7 @@ public class paginaPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, tali.class);
+                raw_tali.start();
                 startActivity(intent);
             }
         });
@@ -209,6 +231,7 @@ public class paginaPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, tufictufinh.class);
+                raw_tufictufinh.start();
                 startActivity(intent);
             }
         });
@@ -235,6 +258,7 @@ public class paginaPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, ojonh.class);
+                raw_ojonh.start();
                 startActivity(intent);
             }
         });
