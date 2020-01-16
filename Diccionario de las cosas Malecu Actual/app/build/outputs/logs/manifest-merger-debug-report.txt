@@ -1,0 +1,143 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0faf83879ae70688069b6114c2312583\appcompat-v7-26.0.0-beta1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\8ba8044f46d2dde02d9aa100ad0d197b\constraint-layout-1.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\ca990b59e0addf82029755d5cccd5beb\animated-vector-drawable-26.0.0-beta1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\856d1d6df767ad7e5b23cabed72950ac\support-vector-drawable-26.0.0-beta1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\c7b352f274a702261ce78be552ce65f6\support-v4-26.0.0-beta1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\eb1693d2a400e83d6d011802fd743bb8\support-media-compat-26.0.0-beta1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\104f7536cf81f6903bb89c9ab8a4a4d9\support-fragment-26.0.0-beta1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\7ab20993da312deab17b408a955317f6\support-core-utils-26.0.0-beta1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0aa165a67ea9cb855bc07d67bc12b2dc\support-core-ui-26.0.0-beta1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\c0b838689b0ac7a31cabf2c8e2ec07dc\support-compat-26.0.0-beta1\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:2:1-22:12
+		INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:2:1-22:12
+		INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:5:5-20:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0faf83879ae70688069b6114c2312583\appcompat-v7-26.0.0-beta1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0faf83879ae70688069b6114c2312583\appcompat-v7-26.0.0-beta1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\8ba8044f46d2dde02d9aa100ad0d197b\constraint-layout-1.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\8ba8044f46d2dde02d9aa100ad0d197b\constraint-layout-1.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\ca990b59e0addf82029755d5cccd5beb\animated-vector-drawable-26.0.0-beta1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\ca990b59e0addf82029755d5cccd5beb\animated-vector-drawable-26.0.0-beta1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\856d1d6df767ad7e5b23cabed72950ac\support-vector-drawable-26.0.0-beta1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\856d1d6df767ad7e5b23cabed72950ac\support-vector-drawable-26.0.0-beta1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\c7b352f274a702261ce78be552ce65f6\support-v4-26.0.0-beta1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\c7b352f274a702261ce78be552ce65f6\support-v4-26.0.0-beta1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\eb1693d2a400e83d6d011802fd743bb8\support-media-compat-26.0.0-beta1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\eb1693d2a400e83d6d011802fd743bb8\support-media-compat-26.0.0-beta1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\104f7536cf81f6903bb89c9ab8a4a4d9\support-fragment-26.0.0-beta1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\104f7536cf81f6903bb89c9ab8a4a4d9\support-fragment-26.0.0-beta1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\7ab20993da312deab17b408a955317f6\support-core-utils-26.0.0-beta1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\7ab20993da312deab17b408a955317f6\support-core-utils-26.0.0-beta1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0aa165a67ea9cb855bc07d67bc12b2dc\support-core-ui-26.0.0-beta1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0aa165a67ea9cb855bc07d67bc12b2dc\support-core-ui-26.0.0-beta1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\c0b838689b0ac7a31cabf2c8e2ec07dc\support-compat-26.0.0-beta1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\c0b838689b0ac7a31cabf2c8e2ec07dc\support-compat-26.0.0-beta1\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.diccionariodelascosas.GridItemActivity
+ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:12:9-96
+	android:name
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:12:19-84
+activity#com.example.diccionariodelascosas.MainActivity
+ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:13:19-80
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0faf83879ae70688069b6114c2312583\appcompat-v7-26.0.0-beta1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0faf83879ae70688069b6114c2312583\appcompat-v7-26.0.0-beta1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\8ba8044f46d2dde02d9aa100ad0d197b\constraint-layout-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\8ba8044f46d2dde02d9aa100ad0d197b\constraint-layout-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\ca990b59e0addf82029755d5cccd5beb\animated-vector-drawable-26.0.0-beta1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\ca990b59e0addf82029755d5cccd5beb\animated-vector-drawable-26.0.0-beta1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\856d1d6df767ad7e5b23cabed72950ac\support-vector-drawable-26.0.0-beta1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\856d1d6df767ad7e5b23cabed72950ac\support-vector-drawable-26.0.0-beta1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\c7b352f274a702261ce78be552ce65f6\support-v4-26.0.0-beta1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\c7b352f274a702261ce78be552ce65f6\support-v4-26.0.0-beta1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\eb1693d2a400e83d6d011802fd743bb8\support-media-compat-26.0.0-beta1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\eb1693d2a400e83d6d011802fd743bb8\support-media-compat-26.0.0-beta1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\104f7536cf81f6903bb89c9ab8a4a4d9\support-fragment-26.0.0-beta1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\104f7536cf81f6903bb89c9ab8a4a4d9\support-fragment-26.0.0-beta1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\7ab20993da312deab17b408a955317f6\support-core-utils-26.0.0-beta1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\7ab20993da312deab17b408a955317f6\support-core-utils-26.0.0-beta1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0aa165a67ea9cb855bc07d67bc12b2dc\support-core-ui-26.0.0-beta1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0aa165a67ea9cb855bc07d67bc12b2dc\support-core-ui-26.0.0-beta1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\c0b838689b0ac7a31cabf2c8e2ec07dc\support-compat-26.0.0-beta1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\c0b838689b0ac7a31cabf2c8e2ec07dc\support-compat-26.0.0-beta1\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0faf83879ae70688069b6114c2312583\appcompat-v7-26.0.0-beta1\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Isa\Dropbox\TCU\Diccionario de las cosas Malecu Actual\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0faf83879ae70688069b6114c2312583\appcompat-v7-26.0.0-beta1\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\ca990b59e0addf82029755d5cccd5beb\animated-vector-drawable-26.0.0-beta1\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\ca990b59e0addf82029755d5cccd5beb\animated-vector-drawable-26.0.0-beta1\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\856d1d6df767ad7e5b23cabed72950ac\support-vector-drawable-26.0.0-beta1\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\856d1d6df767ad7e5b23cabed72950ac\support-vector-drawable-26.0.0-beta1\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\c7b352f274a702261ce78be552ce65f6\support-v4-26.0.0-beta1\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\c7b352f274a702261ce78be552ce65f6\support-v4-26.0.0-beta1\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\eb1693d2a400e83d6d011802fd743bb8\support-media-compat-26.0.0-beta1\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\eb1693d2a400e83d6d011802fd743bb8\support-media-compat-26.0.0-beta1\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\104f7536cf81f6903bb89c9ab8a4a4d9\support-fragment-26.0.0-beta1\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\104f7536cf81f6903bb89c9ab8a4a4d9\support-fragment-26.0.0-beta1\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\7ab20993da312deab17b408a955317f6\support-core-utils-26.0.0-beta1\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\7ab20993da312deab17b408a955317f6\support-core-utils-26.0.0-beta1\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0aa165a67ea9cb855bc07d67bc12b2dc\support-core-ui-26.0.0-beta1\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0aa165a67ea9cb855bc07d67bc12b2dc\support-core-ui-26.0.0-beta1\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\c0b838689b0ac7a31cabf2c8e2ec07dc\support-compat-26.0.0-beta1\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\c0b838689b0ac7a31cabf2c8e2ec07dc\support-compat-26.0.0-beta1\AndroidManifest.xml:26:9-28:44
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0faf83879ae70688069b6114c2312583\appcompat-v7-26.0.0-beta1\AndroidManifest.xml:28:13-41
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Isa\.gradle\caches\transforms-2\files-2.1\0faf83879ae70688069b6114c2312583\appcompat-v7-26.0.0-beta1\AndroidManifest.xml:27:13-51
