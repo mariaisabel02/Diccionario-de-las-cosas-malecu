@@ -1,10 +1,15 @@
 package ucr.ecci.diccionariocosasmalecu;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.content.Context;
 
@@ -35,6 +40,14 @@ public class paginaPrincipal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pagina_principal);
         final Context context = this;
+
+        //para guardar si es la primera vez que se uso el app o no
+        SharedPreferences primer_launch = getSharedPreferences("primer_launch", MODE_PRIVATE);
+        boolean primer_uso = primer_launch.getBoolean("primer_uso",true);
+
+        if(primer_uso) {
+            mostrar_tutorial();
+        }
 
         //inicializamos los cardview del menú
         CardView btn_mapuca = findViewById(R.id.btn_mapuca);
@@ -271,4 +284,31 @@ public class paginaPrincipal extends AppCompatActivity {
             }
         });
     }
+
+    private void mostrar_tutorial(){
+        //mostrar dialogo de explicacion
+        LayoutInflater inflater = getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.dialogo_inicio,null);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this)
+                .setTitle("¡Bienvenido!")
+                .setView(dialogView)
+                .setPositiveButton("Continuar", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick (DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+        builder.create().show();
+        SharedPreferences primer_launch = getSharedPreferences("primer_launch",MODE_PRIVATE);
+        SharedPreferences.Editor editor = primer_launch.edit();
+        editor.putBoolean("primer_uso", false);
+        editor.apply();
+    }
 }
+
+
+// tutorial para desplegar mensaje la primera vez que se abre el app :
+//https://www.youtube.com/watch?v=2I1n6A6JJzw&list=LLaQ-P4qVvvTc1EPxakbKCuw&index=3&t=0s
+//https://www.android-examples.com/create-alertdialog-with-custom-xml-view-layout-file-in-android/
+
