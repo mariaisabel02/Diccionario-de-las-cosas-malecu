@@ -72,7 +72,7 @@ public class paginaPrincipal extends AppCompatActivity {
         CardView btn_ojonh = findViewById(R.id.btn_ojonh);
         CardView btn_acerca = findViewById(R.id.btn_acerca);
 
-        //inicializamos los audios del menu principal
+        //inicializamos los audios del opciones principal
         raw_mapuca_quirra = MediaPlayer.create(paginaPrincipal.this, R.raw.mapuca_quirra);
         raw_jerro = MediaPlayer.create(paginaPrincipal.this, R.raw.jerro);
         raw_cuji = MediaPlayer.create(paginaPrincipal.this, R.raw.cuji);
