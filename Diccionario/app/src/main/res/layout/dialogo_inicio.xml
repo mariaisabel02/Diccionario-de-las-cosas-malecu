@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
+    android:background="#FFFFFF"
     android:padding="15dp">
 
     <ScrollView
@@ -22,11 +23,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="\nPara escuchar la pronunciación y ver la información acerca de las cosas de la agricultura tradicional malecu haga click sobre algún objeto." />
+                android:textColor="#000000"
+                android:text="\nPara escuchar la pronunciación y ver la información acerca de las cosas de la cultura tradicional malecu haga click sobre algún objeto." />
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:src="@drawable/tutorial_gif"
                 />
 
@@ -34,19 +37,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:textColor="#000000"
                 android:text="\nEl botón con símbolo de casa le permite regresar al menú principal." />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="\nEl botón con símbolo de flecha hacia la izquierda le permitirá regresar a la pantalla que vio anteriormente." />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/home" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:text="\nEl botón con símbolo de flecha hacia la izquierda le permitirá regresar a la pantalla que vio anteriormente." />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/atras" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#000000"
                 android:text="\nEl botón con símbolo de flecha hacia la derecha le permitirá ir hacia la siguiente pantalla." />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/adelante" />
 
         </LinearLayout>
     </ScrollView>
