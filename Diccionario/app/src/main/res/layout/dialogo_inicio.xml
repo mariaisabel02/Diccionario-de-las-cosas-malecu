@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:textColor="#FFFF"
-                android:text="\nPara escuchar la pronunciación y ver la información acerca de las cosas de la cultura tradicional malecu haga click sobre algún objeto." />
+                android:text="Para escuchar la pronunciación y ver la información acerca de las cosas de la cultura tradicional malecu haga click sobre algún objeto." />
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="wrap_content"
